@@ -116,3 +116,7 @@ AI
 人工智能
 算力
 IDC
+数据中心
+TPU
+NPU
+GPU
