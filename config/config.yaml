@@ -24,7 +24,7 @@ crawler:
 #   • 适用场景：避免重复信息干扰
 
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "incremental" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 100 # 排名高亮阈值
 
 notification:
@@ -102,21 +102,21 @@ platforms:
     name: "IT之家" 
   - id: "jin10"
     name: "金十数据" 
-  - id: "juejin"
+  # - id: "juejin"
     name: "掘金" 
-  - id: "kaopu"
+  # - id: "kaopu"
     name: "靠谱" 
-  - id: "kuaishou"
+  # - id: "kuaishou"
     name: "快手" 
-  - id: "linuxdo"
+  # - id: "linuxdo"
     name: "linuxdo" 
-  - id: "pcbeta"
+  # - id: "pcbeta"
     name: "pcbeta" 
-  - id: "producthunt"
+  # - id: "producthunt"
     name: "producthunt" 
-  - id: "solidot"
+  # - id: "solidot"
     name: "solidot" 
-  - id: "sputniknewscn"
+  # - id: "sputniknewscn"
     name: "sputniknewscn" 
-  - id: "sspai"
+  # - id: "sspai"
     name: "少数派" 
